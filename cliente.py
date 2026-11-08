@@ -9,8 +9,8 @@ import threading
 import time
 from typing import Any, Dict, Iterable, List, Optional
 
-from . import protocolo as p
-from .transporte import Address, TcpChannel, UdpEndpoint
+import protocolo as p
+from transporte import Address, TcpChannel, UdpEndpoint
 
 log = logging.getLogger("netcanvas.client")
 

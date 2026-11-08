@@ -17,10 +17,10 @@ import threading
 import time
 from typing import Any, Dict, List, Optional
 
-from . import protocolo as p
-from .heartbeat import Reaper, UdpPingResponder
-from .sala import AlreadyJoined, Room, Session, UsernameTaken
-from .transporte import TcpChannel, UdpEndpoint
+import protocolo as p
+from heartbeat import Reaper, UdpPingResponder
+from sala import AlreadyJoined, Room, Session, UsernameTaken
+from transporte import TcpChannel, UdpEndpoint
 
 log = logging.getLogger("netcanvas.server")
 

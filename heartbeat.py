@@ -6,9 +6,9 @@ import socket
 import threading
 from typing import Callable, Optional
 
-from . import protocolo as p
-from .sala import Room, Session
-from .transporte import UdpEndpoint
+import protocolo as p
+from sala import Room, Session
+from transporte import UdpEndpoint
 
 log = logging.getLogger("netcanvas.heartbeat")
 

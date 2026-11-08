@@ -6,7 +6,7 @@ import threading
 from collections import deque
 from typing import Any, Deque, Dict, Optional, Tuple
 
-from . import protocolo as p
+import protocolo as p
 
 Address = Tuple[str, int]
 

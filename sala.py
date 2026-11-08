@@ -9,7 +9,7 @@ from collections import deque
 from dataclasses import dataclass, field
 from typing import Any, Callable, Deque, Dict, List, Optional, Tuple
 
-from . import protocolo as p
+import protocolo as p
 
 
 class UsernameTaken(Exception):

@@ -8,8 +8,8 @@ import tkinter as tk
 from tkinter import colorchooser, messagebox, simpledialog
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
-from . import protocolo as p
-from .cliente import JoinError, NetClient
+import protocolo as p
+from cliente import JoinError, NetClient
 
 POLL_MS = 25
 MAX_EVENTS_PER_TICK = 200
